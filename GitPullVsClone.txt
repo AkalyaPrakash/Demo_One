@@ -1,0 +1,10 @@
+Git pull
+The “git pull” is utilized for syncing remote and local repositories.
+It will fetch and combine the latest changes from a remote repository to a particular local repository.\
+It can be utilized many times in a project.
+
+
+Git clone
+The “git clone” command is executed for setting up a local repository.
+Generate a copy of the remote Git repository and save it to the local machine.
+It can be executed only one time in a project.

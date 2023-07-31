@@ -1,0 +1,9 @@
+Git PUSH vs PULL
+
+Push command refers to the pushing of the local repository content to a remote repository.
+ After a local repository has been modified a push is executed to share the modifications with remote team members.
+
+WHEREAS
+
+Pull command is used to fetch and merge changes from the remote repository to the local repository. 
+The pull command is a combination of two commands, git fetch command followed by git merge command.

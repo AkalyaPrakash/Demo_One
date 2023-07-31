@@ -1,0 +1,16 @@
+Git Reset
+Reset is the command we use when we want to move the repository back to a previous commit, discarding any changes made after that commit.
+
+Branch
+In Git, a branch is a new/separate version of the main repository.
+Let's say you have a large project, and you need to update the design on it.
+
+Unstaging Area
+Unstaged changes are changes that are not tracked by the Git. For example, if you copy a file or modify the file. Git maintains a staging area(also known as index) to track changes that go in your next commit.
+
+Staging Area
+The staging area is an intermediate step between making changes to files and capturing the snapshots of these updates. It is sometimes also known as Git Index.
+We reach the staging area when we have completed making changes to our files and are ready to commit these changes permanently.
+Files in the working directory are not tracked by Git.
+Git will only start tracking changes of those files which are added to the staging area. Whenever we try to commit, only the snapshots of those files are captured which were added to the staging area and are stored permanently in the repository.
+

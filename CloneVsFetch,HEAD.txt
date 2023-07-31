@@ -1,0 +1,11 @@
+Git clone Vs Git fetch
+
+git clone is used to create a copy of a remote repository on your local machine. It creates a new directory with the same name as the remote repository and copies all of the files and commit history to that directory. This command also automatically sets up a remote named "origin" that points to the original repository, so you can easily pull in updates later on.
+
+git fetch is used to retrieve the latest commits from a remote repository, but it does not create a new copy of the entire repository on your local machine. Instead, it updates your local copy of the repository's "remote-tracking branches" (branches that track the state of the remote branches), without modifying your local branches. This means that you can review the changes before merging them into your local branches.
+
+In summary, git clone makes a full copy of the remote repository on your local machine, whereas git fetch only retrieves the changes, leaving your local branches unchanged.
+
+HEAD
+In Git, HEAD refers to the currently checked-out branch’s latest commit. However, in a detached HEAD state, the HEAD does not point to any branch, but instead points to a specific commit or the remote repository.
+

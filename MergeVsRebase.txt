@@ -1,0 +1,14 @@
+
+Git merge
+Merge lets you merge different Git branches.
+Merge logs show you the complete history of commit merging.
+All the commits on a feature branch are combined into a single commit on the master branch.
+Merge is best used when the target branch is supposed to be shared.
+Merge preserves history.
+
+Git Rebase
+Rebase allows you to integrate the changes from one branch into another.
+Rebase logs are linear. As the commits are rebased, the history is altered to reflect this.
+All commits are rebased, and the same number of commits are added to the master branch.
+Rebase is best used when the target branch is private.
+Rebase rewrites history.
